@@ -74,11 +74,11 @@ textarea {
     $MAIN
 \*------------------------------------*/
 html {
-    background-image: url(../img/background.jpg);
+    background-image: url(../img/background.png);
     background-position: right top;
     background-repeat: no-repeat;
     background-size: 60%;
-    background-color: #ffffff;
+    background-color: #f9f9f9;
     color: #95a4a9;
     font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
     animation: animatedCar 1s ease;
