@@ -80,6 +80,7 @@ html {
     background-color: #ffffff;
     color: #95a4a9;
     font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    animation: animatedCar 1s ease;
 }
 body {
     margin: 10%;
@@ -300,7 +301,11 @@ Copyright (c) 2012 Dan Eden
     animation-name: bounceInDown;
 }
 
+@keyframes animatedCar {
+    from {background-position:  200% top; }
+    to {background-position: right top}
 
+}
 
 
 
