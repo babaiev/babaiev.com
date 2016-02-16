@@ -74,7 +74,10 @@ textarea {
     $MAIN
 \*------------------------------------*/
 html {
-    background-color: #f6f9f9;
+    background-image: url(../img/background.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
     color: #95a4a9;
     font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
