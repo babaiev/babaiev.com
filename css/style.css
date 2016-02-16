@@ -74,10 +74,10 @@ textarea {
     $MAIN
 \*------------------------------------*/
 html {
-    background-image: url(../img/background.png);
+    background-image: url(../img/background.jpg);
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 41%;
+    background-size: 60%;
     background-color: #ffffff;
     color: #95a4a9;
     font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -112,38 +112,33 @@ body {
     }
         .social-icons a {
             display: inline-block;
-            margin-right: 10px;
+            margin-right: 15px;
             text-indent: -9999px;
         }
             .twitter {
-                background-image: url(../img/twitter.png);
+                background-image: url(../img/twi.jpg);
                 width: 20px;
-                height: 17px;
+                height: 20px;
             }
             .facebook {
-                background-image: url(../img/facebook.png);
-                width: 10px;
-                height: 19px;
+                background-image: url(../img/fb.jpg);
+                width: 20px;
+                height: 20px;
             }
             .googleplus {
-                background-image: url(../img/googleplus.png);
-                width: 21px;
-                height: 19px;
-            }
-            .dribbble {
-                background-image: url(../img/dribbble.png);
-                width: 21px;
-                height: 19px;
+                background-image: url(../img/G+.jpg);
+                width: 20px;
+                height: 20px;
             }
             .instagram {
-                background-image: url(../img/instagram.png);
+                background-image: url(../img/insta.jpg);
                 width: 20px;
-                height: 19px;
+                height: 20px;
             }
-            .flickr {
-                background-image: url(../img/flickr.png);
+            .linkedin {
+                background-image: url(../img/link.jpg);
                 width: 20px;
-                height: 9px;
+                height: 20px;
             }
 
 
