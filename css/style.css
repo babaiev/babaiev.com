@@ -78,7 +78,7 @@ html {
     background-position: right top;
     background-repeat: no-repeat;
     background-size: 60%;
-    background-color: #f9f9f9;
+    background-color: #f6f9f9;
     color: #95a4a9;
     font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
     animation: animatedCar 1s ease;
@@ -160,7 +160,7 @@ ul, ol, dl {
     list-style-type: none;
 }
 a {
-    color: #339999;
+    color: #6D6D6D;
     font-weight: bold;
 }
 a:hover, a:focus {
