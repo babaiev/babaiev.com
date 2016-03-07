@@ -153,27 +153,27 @@ section.flat button.active {
             text-indent: -9999px;
         }
             .twitter {
-                background-image: url(../img/twi.jpg);
+                background-image: url(../img/twi.png);
                 width: 20px;
                 height: 20px;
             }
             .facebook {
-                background-image: url(../img/fb.jpg);
+                background-image: url(../img/fb.png);
                 width: 20px;
                 height: 20px;
             }
             .googleplus {
-                background-image: url(../img/G+.jpg);
+                background-image: url(../img/G+.png);
                 width: 20px;
                 height: 20px;
             }
             .instagram {
-                background-image: url(../img/insta.jpg);
+                background-image: url(../img/insta.png);
                 width: 20px;
                 height: 20px;
             }
             .linkedin {
-                background-image: url(../img/link.jpg);
+                background-image: url(../img/link.png);
                 width: 20px;
                 height: 20px;
             }
