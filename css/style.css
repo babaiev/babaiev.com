@@ -104,6 +104,36 @@ body {
         border-radius: 125px;
     }
 
+button {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding: 10px 35px;
+    font-size: 15px;
+    font-family: Helvetica;
+    line-height: 1.8;
+    appearance: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+button:focus {
+    outline: none
+}
+
+section.flat button {
+    color: #ffffff;
+    background-color: #b7e6e9;
+    border: none;
+}
+section.flat button:hover,
+section.flat button.hover {
+    background-color: #99c9ff;
+}
+section.flat button:active,
+section.flat button.active {
+    background-color: #27496d;
+
+}
+
 .content {
     float: left;
     width: 300px;
@@ -365,6 +395,11 @@ Copyright (c) 2012 Dan Eden
         background-color: #f6f9f9;
         color: #95a4a9;
     }
+    .private {
+        background-image: url(../img/backbear.png);
+        background-size: 70%;
+        animation: animatedGrizzly 1s ease;
+        background-position: center top;
 }
 
 @media, only screen and (max-width: 1000px) {
@@ -386,4 +421,13 @@ Copyright (c) 2012 Dan Eden
         background-color: #f6f9f9;
         background-image:none;
     }
+    .private {
+        background-color: #f6f9f9;
+        background-image:none;
+    }
+}
+}
+
+@media .private {
+
 }
