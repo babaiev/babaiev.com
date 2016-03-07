@@ -74,15 +74,22 @@ textarea {
     $MAIN
 \*------------------------------------*/
 html {
-    background-image: url(../img/backimage.png);
+    background-image: url(../img/polar_main.png);
     background-position: right top;
     background-repeat: no-repeat;
     background-size: 60%;
     background-color: #f6f9f9;
     color: #95a4a9;
     font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-    animation: animatedCar 1s ease;
+    animation: animatedPolar 1s ease;
 }
+
+.private {
+    background-image: url(../img/backbear.png);
+    background-size: 70%;
+    animation: animatedGrizzly 1s ease;
+}
+
 body {
     margin: 10%;
 }
@@ -140,8 +147,31 @@ body {
                 width: 20px;
                 height: 20px;
             }
-
-
+            .openyour {
+                background-image: url(../img/Openyour.png);
+                width: 20px;
+                height: 20px;
+            }
+            .aboneme {
+                background-image: url(../img/aboneme.png);
+                width: 20px;
+                height: 20px;
+            }
+            .timedom {
+                background-image: url(../img/timedom.png);
+                width: 20px;
+                height: 20px;
+            }
+            .metrovka {
+                background-image: url(../img/metrovka.png);
+                width: 20px;
+                height: 20px;
+            }
+            .taxofon {
+                background-image: url(../img/taxofon.png);
+                width: 20px;
+                height: 20px;
+}
 
 
 
@@ -297,22 +327,26 @@ Copyright (c) 2012 Dan Eden
     animation-name: bounceInDown;
 }
 
-@keyframes animatedCar {
+@keyframes animatedPolar {
     from {background-position:  200% top; }
     to {background-position: right top}
 
 }
 
+@keyframes animatedGrizzly {
+    from {background-position:  200% top; }
+    to {background-position: center top}
 
+}
 
 /*------------------------------------*\
     $MOBILE
 \*------------------------------------*/
-@media handheld, only screen and (max-width: 720px) {
+@media, only screen and (max-width: 1115px) {
     .avatar,
     .content {
         float: none;
-        
+
     }
 
     .avatar img {
@@ -324,6 +358,32 @@ Copyright (c) 2012 Dan Eden
         width: 100%;
     }
     html {
-        background: none;
+        background-image: url(../img/polar_main.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-color: #f6f9f9;
+        color: #95a4a9;
+    }
+}
+
+@media, only screen and (max-width: 1000px) {
+    .avatar,
+    .content {
+        float: none;
+
+    }
+
+    .avatar img {
+        max-width: 125px;
+        max-height: 125px;
+    }
+
+    .content {
+        width: 100%;
+    }
+    html {
+        background-color: #f6f9f9;
+        background-image:none;
     }
 }
