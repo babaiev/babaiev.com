@@ -372,7 +372,7 @@ Copyright (c) 2012 Dan Eden
 /*------------------------------------*\
     $MOBILE
 \*------------------------------------*/
-@media, only screen and (max-width: 1115px) {
+@media handheld, only screen and (max-width: 1115px) {
     .avatar,
     .content {
         float: none;
@@ -402,7 +402,7 @@ Copyright (c) 2012 Dan Eden
         background-position: center top;
 }
 
-@media, only screen and (max-width: 1000px) {
+@media handheld, only screen and (max-width: 1000px) {
     .avatar,
     .content {
         float: none;
@@ -425,9 +425,4 @@ Copyright (c) 2012 Dan Eden
         background-color: #f6f9f9;
         background-image:none;
     }
-}
-}
-
-@media .private {
-
 }
