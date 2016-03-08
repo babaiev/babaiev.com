@@ -74,7 +74,7 @@ textarea {
     $MAIN
 \*------------------------------------*/
 html {
-    background-image: url(../img/polar_main.png);
+    background-image: url(../img/index/polar_main.png);
     background-position: right top;
     background-repeat: no-repeat;
     background-size: 60%;
@@ -85,9 +85,21 @@ html {
 }
 
 .private {
-    background-image: url(../img/backbear.png);
+    background-image: url(../img/social/backbear.png);
     background-size: 70%;
     animation: animatedGrizzly 1s ease;
+}
+
+.error {
+    background-image: url(../img/404/404back.png);
+    background-size: 20%;
+    animation: animatedError 1s ease;
+}
+
+.contacts {
+    background-image: url(../img/contacts/contback.jpg);
+    background-size: 50%;
+    animation: animatedContacts 1s ease;
 }
 
 body {
@@ -133,13 +145,6 @@ section.flat button.active {
     background-color: #27496d;
 
 }
-#fof {display:block; position:relative; width:100%; height:529px; background:url("../img/404.png") top center no-repeat; line-height:1.6em; text-align:center;}
-#fof .positioned{padding-top:80px;}
-#fof .hgroup{margin-bottom:20px; text-transform:uppercase;}
-#fof .hgroup h1{margin-bottom:0; font-size:160px; line-height:120px;}
-#fof .hgroup h2{margin-bottom:0; font-size:80px;}
-#fof p{display:block; margin:0 0 25px 0; padding:0; font-size:16px;}
-
 .content {
     float: left;
     width: 300px;
@@ -159,52 +164,52 @@ section.flat button.active {
             text-indent: -9999px;
         }
             .twitter {
-                background-image: url(../img/twi.png);
+                background-image: url(../img/social/twi.png);
                 width: 20px;
                 height: 20px;
             }
             .facebook {
-                background-image: url(../img/fb.png);
+                background-image: url(../img/social/fb.png);
                 width: 20px;
                 height: 20px;
             }
             .googleplus {
-                background-image: url(../img/G+.png);
+                background-image: url(../img/social/G+.png);
                 width: 20px;
                 height: 20px;
             }
             .instagram {
-                background-image: url(../img/insta.png);
+                background-image: url(../img/social/insta.png);
                 width: 20px;
                 height: 20px;
             }
             .linkedin {
-                background-image: url(../img/link.png);
+                background-image: url(../img/social/link.png);
                 width: 20px;
                 height: 20px;
             }
             .openyour {
-                background-image: url(../img/Openyour.png);
+                background-image: url(../img/index/Openyour.png);
                 width: 20px;
                 height: 20px;
             }
             .aboneme {
-                background-image: url(../img/aboneme.png);
+                background-image: url(../img/index/aboneme.png);
                 width: 20px;
                 height: 20px;
             }
             .timedom {
-                background-image: url(../img/timedom.png);
+                background-image: url(../img/index/timedom.png);
                 width: 20px;
                 height: 20px;
             }
             .metrovka {
-                background-image: url(../img/metrovka.png);
+                background-image: url(../img/index/metrovka.png);
                 width: 20px;
                 height: 20px;
             }
             .taxofon {
-                background-image: url(../img/taxofon.png);
+                background-image: url(../img/index/taxofon.png);
                 width: 20px;
                 height: 20px;
 }
@@ -375,6 +380,20 @@ Copyright (c) 2012 Dan Eden
 
 }
 
+@keyframes animatedError {
+    from {
+        background-position: 200% 150%;
+    }
+    to {
+        background-position: 85% 150%;}
+}
+
+@keyframes animatedContacts {
+    from {background-position:  200% top; }
+    to {background-position: center top}
+
+}
+
 /*------------------------------------*\
     $MOBILE
 \*------------------------------------*/
@@ -394,7 +413,7 @@ Copyright (c) 2012 Dan Eden
         width: 100%;
     }
     html {
-        background-image: url(../img/polar_main.png);
+        background-image: url(../img/index/polar_main.png);
         background-position: right top;
         background-repeat: no-repeat;
         background-size: 60%;
@@ -402,11 +421,23 @@ Copyright (c) 2012 Dan Eden
         color: #95a4a9;
     }
     .private {
-        background-image: url(../img/backbear.png);
-        background-size: 70%;
+        background-image: url(../img/social/backbear.png);
+        background-size: 20%;
         animation: animatedGrizzly 1s ease;
         background-position: center top;
-}
+    }
+    .error {
+        background-image: url(../img/404/404back.png);
+        background-size: 20%;
+        animation: animatedError 1s ease;
+        background-position: 70% 70%;
+    }
+    .contacts {
+        background-image: url(../img/contacts/contback.jpg);
+        background-size: 20%;
+        animation: animatedContacts 1s ease;
+        background-position: center top;
+    }
 
 @media handheld, only screen and (max-width: 1000px) {
     .avatar,
@@ -431,4 +462,12 @@ Copyright (c) 2012 Dan Eden
         background-color: #f6f9f9;
         background-image:none;
     }
+    .error {
+        background-color: #f6f9f9;
+        background-image: none;
+    }
+    .contacts {
+        background-color: #f6f9f9;
+        background-image:none;
+
 }
