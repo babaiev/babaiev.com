@@ -103,7 +103,7 @@ html {
 }
 
 body {
-    margin: 10%;
+    margin: 6%;
 }
 
 .avatar {
@@ -222,10 +222,10 @@ section.flat button.active {
 p,
 ul, ol, dl,
 .title {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 p {
-    font-weight: bold;
+    font-weight: 500;
 }
 ul, ol, dl {
     list-style-type: none;
@@ -454,20 +454,24 @@ Copyright (c) 2012 Dan Eden
     .content {
         width: 100%;
     }
+
     html {
         background-color: #f6f9f9;
-        background-image:none;
+        background-image: none;
     }
+
     .private {
         background-color: #f6f9f9;
-        background-image:none;
+        background-image: none;
     }
+
     .error {
         background-color: #f6f9f9;
         background-image: none;
     }
+
     .contacts {
         background-color: #f6f9f9;
-        background-image:none;
-
+        background-image: none;
+    }
 }
