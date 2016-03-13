@@ -103,7 +103,7 @@ html {
 }
 
 body {
-    margin: 6%;
+    margin: 5%;
 }
 
 .avatar {
@@ -222,7 +222,7 @@ section.flat button.active {
 p,
 ul, ol, dl,
 .title {
-    margin-bottom: 15px;
+    margin-bottom: 13px;
 }
 p {
     font-weight: 500;
